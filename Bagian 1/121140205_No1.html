@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Client-side Programming</title>
+    <title>UAS PEMWEB</title>
     <script src="121140205_No1.js"></script>
 
     <style>
+        body{
+        height: 100%;
+        margin: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
         table {
             border-collapse: collapse;
-            width: 50%;
+            width: 100%;
             margin-top: 20px;
         }
 
@@ -22,21 +29,21 @@
             text-align: left;
         }
     </style>
+    
 </head>
 <body>
-
-    <form id="myForm">
-
+    <div class="container">
+        <p>Natanael Argajova 1211140205 RB </p>
+    <form id="dataForm">
         <label for="nama">Nama:</label>
         <input type="text" id="nama" name="nama"><br>
         <label for="nim">NIM:</label>
         <input type="text" id="nim" name="nim"><br>
+        <label for="Jenis_kelamin">Select Option:</label>
+        <input type="radio" id="option1" name="Jenis_kelamin" value="Laki-laki"> Laki-laki
+        <input type="radio" id="option2" name="Jenis_kelamin" value="Perempuan"> Perempuan<br><br>
         <label for="check">Apakah anda manusia?:</label>
-        <input type="checkbox" id="check" name="check"><br>
-        <label for="radio">Select Option:</label>
-        <input type="radio" id="option1" name="radio" value="Laki-laki"> Laki-laki
-        <input type="radio" id="option2" name="radio" value="Perempuan"> Perempuan<br><br>
-
+        <input type="checkbox" id="check" name="check"><br><br>
         <input type="button" value="Submit" onclick="submitForm()">
     </form>
 
