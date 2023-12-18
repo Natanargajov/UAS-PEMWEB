@@ -4,7 +4,7 @@ function submitForm() {
     
 
     if (nama === '' || nim === '') {
-        alert('Masukan nama dan email');
+        alert('Masukan nama dan nim');
         return;
     }
 
@@ -12,7 +12,7 @@ function submitForm() {
         Nama: nama,
         Nim:nim,
         Validasi_Manusia: document.getElementById('check').checked,
-        Jenis_kelamin : document.querySelector('input[name="radio"]:checked') ? document.querySelector('input[name="radio"]:checked').value : ''
+        Jenis_kelamin : document.querySelector('input[name="Jenis_kelamin"]:checked') ? document.querySelector('input[name="Jenis_kelamin"]:checked').value : ''
     };
 
     displayData(formData);
