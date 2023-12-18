@@ -1,0 +1,9 @@
+1. Buka SQL
+2. Buat database dengan perintah "CREATE DATABASE"
+3. Pilih database dengan "Use" (Use_identitas;)
+4. Buat tabel dengan perintah "CREATE TABLE"
+5. Tambahkan data dengan "INSERT INTO"
+6. Jika ingin modifikasi database dapat menggunakan
+	-"UPDATE" untuk memperbaru data
+	-"DELETE" untuk menghapus
+	-"SELECT" untuk memilih pengambilan data
